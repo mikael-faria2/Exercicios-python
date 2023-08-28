@@ -1,9 +1,27 @@
-tabuada = int(input("Tabuada de multiplicação do numero: "))
+n1 = int(input('digite o numero e saiba seus multiplos: '))
 
-for soma in range(10):
-    print("%a x %a = %a" % (tabuada, soma+1, tabuada*(soma+1)))
+print('{} x {} = {}'.format(n1, 1, n1*1))
+print('{} x {} = {}'.format(n1, 2, n1*2))
+print('{} x {} = {}'.format(n1, 3, n1*3))
+print('{} x {} = {}'.format(n1, 4, n1*4))
+print('{} x {} = {}'.format(n1, 5, n1*5))
+print('{} x {} = {}'.format(n1, 6, n1*6))
+print('{} x {} = {}'.format(n1, 7, n1*7))
+print('{} x {} = {}'.format(n1, 8, n1*8))
+print('{} x {} = {}'.format(n1, 9, n1*9))
+print('{} x {} = {}'.format(n1, 10, n1*10))
 
-TabuadaDivisao = int(input("Tabuada de divisão do numero: "))
+print('=========================================')
 
-for div in range(10):
-    print("%d / %d = %f" % (TabuadaDivisao, div+1, TabuadaDivisao/(div+1)))
+n1 = int(input('digite o numero e saiba seus divisores: '))
+
+print('{} / {} = {}'.format(n1, 1, n1/1))
+print('{} / {} = {}'.format(n1, 2, n1/2))
+print('{} / {} = {}'.format(n1, 3, n1/3))
+print('{} / {} = {}'.format(n1, 4, n1/4))
+print('{} / {} = {}'.format(n1, 5, n1/5))
+print('{} / {} = {}'.format(n1, 6, n1/6))
+print('{} / {} = {}'.format(n1, 7, n1/7))
+print('{} / {} = {}'.format(n1, 8, n1/8))
+print('{} / {} = {}'.format(n1, 9, n1/9))
+print('{} / {} = {}'.format(n1, 10, n1/10))
